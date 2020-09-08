@@ -15,7 +15,7 @@ class DataService {
     
     private let categories: [Category] = [
         Category(title: "Laptops", imageName: "computer.png"),
-        Category(title: "Chips", imageName: "chips.png"),
+        Category(title: "Chips", imageName: "chip.png"),
         Category(title: "Keyboard", imageName: "keyboard.png")
     ]
     

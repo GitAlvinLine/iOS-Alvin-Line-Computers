@@ -25,20 +25,20 @@
                                 <rect key="frame" x="0.0" y="177.5" width="414" height="718.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="156" id="cLO-Lp-8QL" customClass="CategoryCell" customModule="AlvinSwagerLine" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="414" height="156"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="183" id="cLO-Lp-8QL" customClass="CategoryCell" customModule="AlvinSwagerLine" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="183"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="cLO-Lp-8QL" id="h2d-6t-Dc2">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="156"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="183"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="computer" translatesAutoresizingMaskIntoConstraints="NO" id="t3u-PC-PFA">
-                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="156"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="414" height="183"/>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Laptops" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rbX-q0-jU7">
-                                                    <rect key="frame" x="145" y="61.5" width="124" height="33"/>
+                                                    <rect key="frame" x="137" y="75" width="140" height="33"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="124" id="KPL-y3-DxJ"/>
+                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="140" id="KPL-y3-DxJ"/>
                                                         <constraint firstAttribute="height" constant="33" id="MGs-U5-G2j"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="25"/>
@@ -69,6 +69,7 @@
                             <constraint firstItem="BG5-8I-gya" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="35" id="Jvi-cg-HlT"/>
                             <constraint firstItem="sST-aw-Kti" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="WLI-gS-TgV"/>
                             <constraint firstItem="sST-aw-Kti" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="fFm-3h-a1R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="BG5-8I-gya" secondAttribute="trailing" constant="191" id="joM-ZV-lCL"/>
                             <constraint firstAttribute="bottom" secondItem="sST-aw-Kti" secondAttribute="bottom" id="xii-6g-ALo"/>
                             <constraint firstItem="sST-aw-Kti" firstAttribute="top" secondItem="BG5-8I-gya" secondAttribute="bottom" constant="20" id="zt7-C4-5wB"/>
                         </constraints>
